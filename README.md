@@ -4,17 +4,16 @@
 
 Bug Bounty is a decentralized platform that incentivizes the discovery and responsible disclosure of smart contract vulnerabilities. Projects post bounties, security researchers submit findings, and payments are held in escrow until vulnerabilities are confirmed and fixed.
 
-## On-Chain Proof
+## On-Chain Proof (Deployed & Verified)
 
-| Contract | Address |
-|----------|---------|
-| BugBountyRegistry | `TBD` |
-| BountyEscrow | `TBD` |
-| SubmissionManager | `TBD` |
-| SeverityClassifier | `TBD` |
+### Base Sepolia (OP Stack)
 
-Network: Ethereum Mainnet
+| Contract | Address | Tx Hash |
+|----------|---------|--------|
+| **SeverityCalculator** | [`0x1125...Bd7E`](https://sepolia.basescan.org/address/0x11256385967A24b214273ec43e6D0e553f24Bd7E) | [`0x6707...d6d3`](https://sepolia.basescan.org/tx/0x6707925403e8e99c76b47f933f236d60dbaf5051c640c052e60606d1491ad6d3) |
+| **BugBountyPlatform** | [`0x83D0...c0b0`](https://sepolia.basescan.org/address/0x83D00c5a90dfD87B37677D734F2eFe47EadDc0b0) | [`0x9655...1150`](https://sepolia.basescan.org/tx/0x96559ca95a5a44b0631679f1d0e326430ab1d0bf289dcbc31f713be74f631150) |
 
+**Deployer**: [`0x7F75...C739`](https://sepolia.basescan.org/address/0x7F75bfAfeD5c96584774c7F2Bc33F3bF887BC739) | **Network**: Base Sepolia
 ## How It Works
 
 1. **Post Bounty**: A project registers their smart contract and deposits a bounty fund into the BountyEscrow. They specify the scope, excluded contracts, and bounty tiers by severity.
